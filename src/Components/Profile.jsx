@@ -16,7 +16,7 @@ const Profile = ({profile}) => {
                 <p>Repos</p>
                 <p>{profile.public_repos}</p>
               </div>
-              <button className='bg-purple-500 text-white p-2 rounded-xl self-start'><a href={profile.url}>Github</a></button>
+              <button className='bg-purple-500 text-white p-2 rounded-xl self-start'><a href={profile.html_url}>Github</a></button>
             </div>
           </div>
         </div>
