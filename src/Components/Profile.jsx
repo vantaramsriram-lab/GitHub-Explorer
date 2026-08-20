@@ -7,7 +7,7 @@ const Profile = ({profile}) => {
           <img src={profile.avatar_url} alt="" className='sm:w-30 sm:h-30 w-20 h-20 rounded-full' />
           <div className='flex flex-col gap-2'>
             <h2 className='sm:text-3xl text-2xl font-bold'>{profile.name}</h2>
-            <p className='sm:text-lg text-sm'>{profile.bio ? (profile.bio) : ("No-Bio")}</p>
+            <p className='sm:text-lg text-sm'>{profile.bio ? (profile.bio) : ("No Bio")}</p>
             <div className='sm:flex gap-2 flex flex-col'>
               <div className='flex gap-2 
                max-[350px]:flex-col'>
